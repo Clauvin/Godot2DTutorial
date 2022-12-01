@@ -16,7 +16,6 @@ public class Main : Node
     public override void _Ready()
     {
         GD.Randomize();
-        NewGame();
     }
 
     public void GameOver()
